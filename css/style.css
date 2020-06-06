@@ -5,7 +5,8 @@ body {
   background-color: #eff6ee;
 }
 
-/* Global Styles */
+/* Global Styles
+===================================================== */
 html {
   box-sizing: border-box;
 }
@@ -24,7 +25,17 @@ ul {
   padding: 0;
 }
 
-/* Header */
+.btn_1 {
+  height: 38px;
+  background: #f02d3a;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+/* Header 
+===================================================== */
 header {
   background-color: #273043;
   color: #ffffff;
@@ -69,7 +80,8 @@ header a:hover {
   font-weight: bold;
 }
 
-/* Showcase */
+/* Showcase 
+===================================================== */
 #showcase {
   min-height: 400px;
   background: url('../img/showcase.jpg') no-repeat 0 50%;
@@ -87,9 +99,29 @@ header a:hover {
   font-size: 20px;
 }
 
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #273043;
+}
 
+#newsletter h1 {
+  float: left;
+}
 
-/* Footer */
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* Footer
+===================================================== */
 footer {
   line-height: 2;
   background-color: #f02d3a;
